@@ -215,6 +215,34 @@ void setInitialPattern() {
     point(midX - 16, midY + 16);
     point(midX - 15, midY + 17);
 
+// Glider pattern at the top-center
+    point(midX, midY - 15);
+    point(midX + 1, midY - 15);
+    point(midX, midY - 14);
+    point(midX - 1, midY - 14);
+    point(midX, midY - 13);
+
+    // Glider pattern at the bottom-center
+    point(midX, midY + 15);
+    point(midX + 1, midY + 15);
+    point(midX, midY + 16);
+    point(midX - 1, midY + 16);
+    point(midX, midY + 17);
+
+    // Glider pattern at the left-center
+    point(midX - 15, midY);
+    point(midX - 14, midY);
+    point(midX - 15, midY + 1);
+    point(midX - 16, midY + 1);
+    point(midX - 15, midY + 2);
+
+    // Glider pattern at the right-center
+    point(midX + 15, midY);
+    point(midX + 16, midY);
+    point(midX + 15, midY + 1);
+    point(midX + 14, midY + 1);
+    point(midX + 15, midY + 2);
+
 }
 
 
