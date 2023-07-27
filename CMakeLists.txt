@@ -8,6 +8,6 @@ set(SDL2_LIB_DIR C:/Users/DIEAL/OneDrive/Documents/SDL2-2.28.1/lib/x64)
 include_directories(${SDL2_INCLUDE_DIR})
 link_directories(${SDL2_LIB_DIR})
 
-add_executable(Conways_Game_of_Life main.cpp)
+add_executable(Conways_Game_of_Life src/main.cpp)
 
 target_link_libraries(${PROJECT_NAME} SDL2main SDL2)
